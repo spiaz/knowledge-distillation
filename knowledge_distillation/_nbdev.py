@@ -2,9 +2,24 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"load_adult": "00_logisitc.ipynb"}
+index = {"ADULT_PATH": "00_io.ipynb",
+         "ASSETS_PATH": "00_io.ipynb",
+         "load_adult": "00_io.ipynb",
+         "scale_onehot": "01_processing.ipynb",
+         "split_with_seed": "01_processing.ipynb",
+         "evaluate_model": "01_processing.ipynb",
+         "UnbiasedAverage": "02_ensemble.ipynb",
+         "create_nn": "03b_NN.ipynb",
+         "train_params": "03b_NN.ipynb",
+         "keras_model_and_classes_paths": "03b_NN.ipynb",
+         "save_keras_classifier": "03b_NN.ipynb",
+         "do_nothing": "03b_NN.ipynb",
+         "load_keras_classifier": "03b_NN.ipynb"}
 
-modules = ["io.py"]
+modules = ["io.py",
+           "processing.py",
+           "ensemble.py",
+           "nn.py"]
 
 doc_url = "https://spiaz.github.io/knowledge_distillation/"
 
