@@ -14,12 +14,16 @@ index = {"ADULT_PATH": "00_io.ipynb",
          "keras_model_and_classes_paths": "03b_NN.ipynb",
          "save_keras_classifier": "03b_NN.ipynb",
          "do_nothing": "03b_NN.ipynb",
-         "load_keras_classifier": "03b_NN.ipynb"}
+         "load_keras_classifier": "03b_NN.ipynb",
+         "defined_in_subfolder": "00 define in sub.ipynb",
+         "defined_in_multiple_nbs": "01 define in multiple_nbs 1.ipynb"}
 
 modules = ["io.py",
            "processing.py",
            "ensemble.py",
-           "nn.py"]
+           "nn.py",
+           "nbdev_tests/defined_in_sub.py",
+           "nbdev_tests/multiple.py"]
 
 doc_url = "https://spiaz.github.io/knowledge_distillation/"
 
